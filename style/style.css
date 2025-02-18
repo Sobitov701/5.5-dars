@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.text {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.hero {
+  background-color: #e4e4ef;
+  margin-top: 48px;
+  width: 860px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero2 {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-right: 4px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.stat {
+  flex: 1;
+  padding: 10px;
+  background-color: #d3a0fa;
+  border-radius: 8px;
+  margin: 0 5px;
+  text-align: start;
+}
+
+.stat1 {
+  flex: 1;
+  padding: 10px;
+  background-color: #ff9f00;
+  border-radius: 8px;
+  margin: 0 5px;
+  text-align: start;
+}
+.stat3 {
+  flex: 1;
+  padding: 10px;
+  background-color: #fe8159;
+  border-radius: 8px;
+  margin: 0 5px;
+  text-align: start;
+}
+
+.stat h2 {
+  font-size: 64px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.stat1 h2 {
+  font-size: 64px;
+  margin: 5px 0;
+}
+
+.stat3 h2 {
+  font-size: 64px;
+  margin: 5px 0;
+}
+
+.letter-density {
+  margin-top: 20px;
+}
+
+.letter-density h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.letter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.bar {
+  flex: 1;
+  height: 10px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #8b5cf6;
+  border-radius: 5px;
+}
